@@ -1,0 +1,76 @@
+/* Defining CSS variables for the color scheme in :root */
+:root {
+    --primary-color: #C9FBFF;  /* Light blue */
+    --secondary-color: #C2FCF7;  /* Lighter blue */
+    --accent-color: #85BDBF;  /* Teal */
+    --dark-color: #57737A;  /* Dark teal */
+}
+
+/* Styling headings and paragraphs */
+h1, h2 {
+    color: var(--dark-color);
+    font-family: 'Roboto', serif;
+}
+
+p {
+    color: var(--font-color);
+    font-family: 'Roboto', serif;
+}
+
+/* Specific selectors for Roboto font styles */
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Removing underlines from social media image links */
+.social-media a {
+    text-decoration: none;
+    border: none;
+}
+
+/* Limiting the width of the page */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling the Hero Container */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: var(--secondary-color);
+    background-color: rgba(0, 0, 0, 0.5);  /* Background color and opacity for readability */
+    padding: 10px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.8);  /* Background color and opacity for readability */
+    padding: 10px;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 10px;
+}
