@@ -148,3 +148,71 @@ body {
 .social-media img {
     max-width: 30px;
 }
+
+:root {
+    --primary-color: #2dde9d;
+    --secondary-color: #6eb9ef;
+    --accent-color: #007BFF;
+}
+
+body {
+    font-family: 'YourFontChoice', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darken(var(--accent-color), 10%);
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
