@@ -2,7 +2,7 @@
 :root {
     --primary-color: #C9FBFF;  /* Light blue */
     --secondary-color: #C2FCF7;  /* Lighter blue */
-    --accent-color: #85BDBF;  /* Teal */
+    --accent-color: #4ac9ce;  /* Teal */
     --dark-color: #57737A;  /* Dark teal */
 }
 
@@ -152,7 +152,7 @@ body {
 :root {
     --primary-color: #2dde9d;
     --secondary-color: #6eb9ef;
-    --accent-color: #007BFF;
+    --accent-color: #283f57;
 }
 
 body {
@@ -216,3 +216,94 @@ footer a {
     text-decoration: none;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 5rem 0;
+    color: white;
+  }
+  
+  .newsletter, .call-to-action {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .info-grid div {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 1rem 0;
+  }
+
+/* Trips Page Specific Styles */
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .trip img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+  }
+  
+  .trips-table th, .trips-table td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .trips-table th {
+    background-color: #f7f4f4;
+  }
+  
